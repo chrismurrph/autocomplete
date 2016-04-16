@@ -6,9 +6,9 @@
 
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [org.clojure/clojurescript "1.7.228"]
-                 [org.omcljs/om "1.0.0-alpha31"]
+                 [org.omcljs/om "1.0.0-alpha32"]
                  [navis/untangled-client "0.4.7-SNAPSHOT"]
-                 [secretary "1.2.3" :exclusions [com.cemerick/clojurescript.test]]]
+                 [default-db-format "0.1.1-SNAPSHOT"]]
 
   :plugins [[lein-cljsbuild "1.1.2"]]
 
@@ -26,7 +26,8 @@
                                                    :optimizations        :none}}}}
 
   :figwheel {:css-dirs    ["resources/public/css"]
-             :server-port 2345}
+             :server-port 2345
+             :open-file-command "open-in-intellij"}
 
   :profiles {:dev {:repl-options {
                                   :init-ns          user

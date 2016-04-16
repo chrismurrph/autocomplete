@@ -81,3 +81,263 @@ notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps
 notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
 notifying browser that file changed:  out/cljs/user.js
 [32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 1.107 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/ui.js
+notifying browser that file changed:  out/autocomplete/main.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 1.207 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.505 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/core.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.457 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.319 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+#error {
+ :cause No such namespace: default-db-format.core, could not locate default_db_format/core.cljs, default_db_format/core.cljc, or Closure namespace "default-db-format.core" in file src/client/autocomplete/ui.cljs
+ :data {:tag :cljs/analysis-error}
+ :via
+ [{:type clojure.lang.ExceptionInfo
+   :message failed compiling file:src/client/autocomplete/ui.cljs
+   :data {:file #object[java.io.File 0x3362991e src/client/autocomplete/ui.cljs]}
+   :at [clojure.core$ex_info invoke core.clj 4593]}
+  {:type clojure.lang.ExceptionInfo
+   :message No such namespace: default-db-format.core, could not locate default_db_format/core.cljs, default_db_format/core.cljc, or Closure namespace "default-db-format.core" in file src/client/autocomplete/ui.cljs
+   :data {:tag :cljs/analysis-error}
+   :at [clojure.core$ex_info invoke core.clj 4593]}]
+ :trace
+ [[clojure.core$ex_info invoke core.clj 4593]
+  [cljs.analyzer$error invoke analyzer.cljc 576]
+  [cljs.analyzer$error invoke analyzer.cljc 574]
+  [cljs.analyzer$analyze_deps invoke analyzer.cljc 1668]
+  [cljs.analyzer$ns_side_effects invoke analyzer.cljc 2512]
+  [cljs.analyzer$analyze_STAR_$fn__2031 invoke analyzer.cljc 2597]
+  [clojure.lang.PersistentVector reduce PersistentVector.java 333]
+  [clojure.core$reduce invoke core.clj 6518]
+  [cljs.analyzer$analyze_STAR_ invoke analyzer.cljc 2597]
+  [cljs.analyzer$analyze invoke analyzer.cljc 2612]
+  [cljs.compiler$emit_source invoke compiler.cljc 1237]
+  [cljs.compiler$compile_file_STAR_$fn__3496 invoke compiler.cljc 1288]
+  [cljs.compiler$with_core_cljs invoke compiler.cljc 1152]
+  [cljs.compiler$compile_file_STAR_ invoke compiler.cljc 1277]
+  [cljs.compiler$compile_file$fn__3519 invoke compiler.cljc 1357]
+  [cljs.compiler$compile_file invoke compiler.cljc 1336]
+  [cljs.closure$compile_file invoke closure.clj 437]
+  [cljs.closure$eval5284$fn__5285 invoke closure.clj 504]
+  [cljs.closure$eval5220$fn__5221$G__5209__5228 invoke closure.clj 394]
+  [cljs.closure$compile_task$fn__5374 invoke closure.clj 778]
+  [cljs.closure$compile_task invoke closure.clj 776]
+  [cljs.closure$parallel_compile_sources$fn__5380 invoke closure.clj 806]
+  [clojure.lang.AFn applyToHelper AFn.java 152]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invoke core.clj 630]
+  [clojure.core$with_bindings_STAR_ doInvoke core.clj 1868]
+  [clojure.lang.RestFn invoke RestFn.java 425]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.RestFn applyTo RestFn.java 132]
+  [clojure.core$apply invoke core.clj 634]
+  [clojure.core$bound_fn_STAR_$fn__4439 doInvoke core.clj 1890]
+  [clojure.lang.RestFn invoke RestFn.java 397]
+  [clojure.lang.AFn run AFn.java 22]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.215 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+#error {
+ :cause No such namespace: default-db-format.core, could not locate default_db_format/core.cljs, default_db_format/core.cljc, or Closure namespace "default-db-format.core" in file src/client/autocomplete/ui.cljs
+ :data {:tag :cljs/analysis-error}
+ :via
+ [{:type clojure.lang.ExceptionInfo
+   :message failed compiling file:src/client/autocomplete/ui.cljs
+   :data {:file #object[java.io.File 0xe78b283 src/client/autocomplete/ui.cljs]}
+   :at [clojure.core$ex_info invoke core.clj 4593]}
+  {:type clojure.lang.ExceptionInfo
+   :message No such namespace: default-db-format.core, could not locate default_db_format/core.cljs, default_db_format/core.cljc, or Closure namespace "default-db-format.core" in file src/client/autocomplete/ui.cljs
+   :data {:tag :cljs/analysis-error}
+   :at [clojure.core$ex_info invoke core.clj 4593]}]
+ :trace
+ [[clojure.core$ex_info invoke core.clj 4593]
+  [cljs.analyzer$error invoke analyzer.cljc 576]
+  [cljs.analyzer$error invoke analyzer.cljc 574]
+  [cljs.analyzer$analyze_deps invoke analyzer.cljc 1668]
+  [cljs.analyzer$ns_side_effects invoke analyzer.cljc 2512]
+  [cljs.analyzer$analyze_STAR_$fn__2031 invoke analyzer.cljc 2597]
+  [clojure.lang.PersistentVector reduce PersistentVector.java 333]
+  [clojure.core$reduce invoke core.clj 6518]
+  [cljs.analyzer$analyze_STAR_ invoke analyzer.cljc 2597]
+  [cljs.analyzer$analyze invoke analyzer.cljc 2612]
+  [cljs.compiler$emit_source invoke compiler.cljc 1237]
+  [cljs.compiler$compile_file_STAR_$fn__3496 invoke compiler.cljc 1288]
+  [cljs.compiler$with_core_cljs invoke compiler.cljc 1152]
+  [cljs.compiler$compile_file_STAR_ invoke compiler.cljc 1277]
+  [cljs.compiler$compile_file$fn__3519 invoke compiler.cljc 1357]
+  [cljs.compiler$compile_file invoke compiler.cljc 1336]
+  [cljs.closure$compile_file invoke closure.clj 437]
+  [cljs.closure$eval5284$fn__5285 invoke closure.clj 504]
+  [cljs.closure$eval5220$fn__5221$G__5209__5228 invoke closure.clj 394]
+  [cljs.closure$compile_task$fn__5374 invoke closure.clj 778]
+  [cljs.closure$compile_task invoke closure.clj 776]
+  [cljs.closure$parallel_compile_sources$fn__5380 invoke closure.clj 806]
+  [clojure.lang.AFn applyToHelper AFn.java 152]
+  [clojure.lang.AFn applyTo AFn.java 144]
+  [clojure.core$apply invoke core.clj 630]
+  [clojure.core$with_bindings_STAR_ doInvoke core.clj 1868]
+  [clojure.lang.RestFn invoke RestFn.java 425]
+  [clojure.lang.AFn applyToHelper AFn.java 156]
+  [clojure.lang.RestFn applyTo RestFn.java 132]
+  [clojure.core$apply invoke core.clj 634]
+  [clojure.core$bound_fn_STAR_$fn__4439 doInvoke core.clj 1890]
+  [clojure.lang.RestFn invoke RestFn.java 397]
+  [clojure.lang.AFn run AFn.java 22]
+  [java.util.concurrent.ThreadPoolExecutor runWorker ThreadPoolExecutor.java 1142]
+  [java.util.concurrent.ThreadPoolExecutor$Worker run ThreadPoolExecutor.java 617]
+  [java.lang.Thread run Thread.java 745]]}
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.248 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.469 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/ui.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.998 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.912 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+[31mCompiling "resources/public/js/compiled/autocomplete.js" failed.
+[0mjava.lang.AssertionError: Assert failed: Circular dependency detected,  -> autocomplete.ui -> autocomplete.core -> autocomplete.ui
+(not (some #{ns-name} seen))
+ at cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:148)
+    cljs.js_deps$dependency_order_visit$fn__311.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:112)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit$fn__311.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:112)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit$fn__311.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:112)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:146)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:117)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order.invoke (js_deps.cljc:176)
+    cljs.closure$build.invoke (closure.clj:1895)
+    cljs.build.api$build.invoke (api.clj:207)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__17458.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__17785.invoke (notifications.clj:187)
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.103 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+[31mCompiling "resources/public/js/compiled/autocomplete.js" failed.
+[0mjava.lang.AssertionError: Assert failed: Circular dependency detected,  -> autocomplete.ui -> autocomplete.core -> autocomplete.ui
+(not (some #{ns-name} seen))
+ at cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:148)
+    cljs.js_deps$dependency_order_visit$fn__311.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:112)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit$fn__311.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:112)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit$fn__311.invoke (js_deps.cljc:156)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:112)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:156)
+    cljs.js_deps$dependency_order_visit.invoke (js_deps.cljc:146)
+    clojure.core.protocols$iter_reduce.invoke (protocols.clj:49)
+    clojure.core.protocols/fn (protocols.clj:117)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.js_deps$dependency_order.invoke (js_deps.cljc:176)
+    cljs.closure$build.invoke (closure.clj:1895)
+    cljs.build.api$build.invoke (api.clj:207)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__17458.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__17785.invoke (notifications.clj:187)
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.134 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+WARNING: Use of undeclared Var autocomplete.root/defui at line 7 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/Root at line 7 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/static at line 8 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/query at line 9 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/_ at line 9 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/AutoCompleter at line 10 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/Object at line 11 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/render at line 12 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/this at line 12 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.root/this at line 13 src/client/autocomplete/root.cljs
+WARNING: No such namespace: db-format, could not locate db_format.cljs, db_format.cljc, or Closure namespace "" at line 17 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var db-format/show-hud at line 17 src/client/autocomplete/root.cljs
+WARNING: No such namespace: db-format, could not locate db_format.cljs, db_format.cljc, or Closure namespace "" at line 17 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var autocomplete.main/Root at line 9 src/client/autocomplete/main.cljs
+WARNING: Use of undeclared Var db-format/check at line 17 src/client/autocomplete/root.cljs
+WARNING: Use of undeclared Var cljs.user/Root at line 20 dev/client/cljs/user.cljs
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/root.js
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.86 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+WARNING: Use of undeclared Var autocomplete.root/Root at line 9 src/client/autocomplete/main.cljs
+WARNING: Use of undeclared Var autocomplete.root/Root at line 20 dev/client/cljs/user.cljs
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/main.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.373 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/autocomplete/root.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.565 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/root.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.447 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/root.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.484 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/root.js
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.525 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.516 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+WARNING: Use of undeclared Var autocomplete.ui/u-query at line 13 /home/chris/IdeaProjects/autocomplete/src/client/autocomplete/ui.cljs
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.517 seconds.[0m
+[0mCompiling "resources/public/js/compiled/autocomplete.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/autocomplete/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/autocomplete.js" in 0.48 seconds.[0m

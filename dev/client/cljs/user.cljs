@@ -5,8 +5,7 @@
     [autocomplete.core :as core]
     autocomplete.mutations
     [untangled.client.logging :as log]
-    [autocomplete.ui :as ui]
-    [autocomplete.routing :refer [configure-routing!]]
+    [autocomplete.root :as root]
     [untangled.client.core :as uc]
     [cljs.reader :as reader]))
 
@@ -18,10 +17,7 @@
 
 (log/set-level :debug)
 
-(reset! core/app (uc/mount @core/app ui/TodoList "app"))
-
-(defonce routing
-  (configure-routing! (:reconciler @core/app)))
+(reset! core/app (uc/mount @core/app root/Root "app"))
 
 (defn log-app-state
   "Helper for logging the app-state, pass in top-level keywords from the app-state and it will print only those
