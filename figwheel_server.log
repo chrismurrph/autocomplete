@@ -1,0 +1,83 @@
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.816 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  resources/public/js/compiled/specs/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/specs/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.039 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 1.004 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  resources/public/js/compiled/specs/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/specs/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.346 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.759 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.163 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.796 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.304 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.69 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.112 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  resources/public/js/compiled/specs/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/specs/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.322 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 1.082 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 1.048 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  out/untangled_todomvc/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.848 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  resources/public/js/compiled/specs/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 0.756 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.586 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.321 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.313 seconds.[0m
+[0mCompiling "resources/public/js/compiled/todomvc-specs.js" from ["src/client" "specs/client"]...
+notifying browser that file changed:  resources/public/js/compiled/specs/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/mutations.js
+[32mSuccessfully compiled "resources/public/js/compiled/todomvc-specs.js" in 0.736 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/untangled_todomvc/mutations.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 0.5 seconds.[0m
+[0mCompiling "resources/public/js/compiled/untangled-todomvc.js" from ["dev/client" "src/client"]...
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out/cljs/user.js
+[32mSuccessfully compiled "resources/public/js/compiled/untangled-todomvc.js" in 1.107 seconds.[0m
